@@ -1,0 +1,29 @@
+.navbar-bg {
+    width: 100%;
+    height: 86px;
+}
+.color-text-yellow{
+    color: #eb8307 !important;
+}
+.icon{
+    font-size: 1.5em;
+    color: #eb8307;
+}
+.bg-input{
+    border: none ;
+    color: #898989;
+    min-width: 330px;
+    height: 42px;
+    border-radius: 35px;
+    padding: 0 10px 0 50px;
+    outline: none ;
+    font-weight: 400;
+}
+.btn-form{
+    /* background-color: #000 !important; */
+    border: none;
+    color: #eb8307;
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
