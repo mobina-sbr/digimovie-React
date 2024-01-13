@@ -7,6 +7,7 @@ import Btn from '../Btn'
 import logo from '../../images/logo-light.png'
 import logoLight from '../../images/logo-dark.png'
 import { MovieContext } from '../../context/MovieContext'
+import Footer from '../Footer'
 
 export default function Front() {
     const [theme, toggleTheme] = useDarkMode()
@@ -41,6 +42,7 @@ export default function Front() {
                 </div>
                 <Header difBg={`${theme === 'dark' ? 'bg-dark' : 'bg-light'}`} colorText={`${theme === 'dark' ? 'color-text-dark' : 'color-text-light'}`} inputBg={`${theme === 'dark' ? 'dark-input' : 'dark-light'}`} />
                 <BodyMovie bgSide={`${theme === 'dark' ? 'color-dark' : 'color-light'}`} colorText={`${theme === 'dark' ? 'color-text-dark' : 'color-text-light'}`} bodySide={`${theme === 'dark' ? 'body-dark' : 'body-light'}`} />
+                <Footer colOne={`${theme === 'dark' ? 'col-one-a' : 'col-one-a-dark'}`} colorText={`${theme === 'dark' ? 'color-text-dark' : 'color-text-light'}`} colLast={`${theme === 'dark' ? 'footer-dark' : 'footer-light'}`} bodySide={`${theme === 'dark' ? 'body-dark' : 'body-light'}`}/>
             </div>
         </>
     )

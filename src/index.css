@@ -115,3 +115,9 @@ code {
   background-color: #1a1a1a;
   color: #fff !important;
 }
+.col-one-a{
+  color: #fff;
+}
+.col-one-a-dark{
+  color: #000;
+}

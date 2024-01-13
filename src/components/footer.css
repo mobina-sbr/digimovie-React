@@ -1,0 +1,40 @@
+.col-one{
+    display: flex;
+    flex-direction: column;
+}
+.col-one a:hover{
+    color: #eb8307;
+}
+.footer{
+    margin: 0 auto !important;
+    text-align: center;
+}
+.telegram{
+    border-left: 1px solid #bbbbbb;
+}
+.a-footer{
+    cursor: pointer;
+}
+.a-telegram{
+    display: flex;
+    flex-direction: column;
+}
+.a-telegram-2{
+    color: #eb8307;
+}
+.icon-tel{
+    color: #eb8307;
+}
+.col-last{
+    /* background-color: #151515; */
+    font-size: 85%;
+    width: 70%;
+    padding: 25px;
+    border-radius: 10px;
+}
+.footer-dark{
+    background-color: #252525;
+}
+.footer-light{
+    background-color: #ccc;
+}
