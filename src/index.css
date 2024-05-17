@@ -51,9 +51,9 @@ code {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  left: 390px;
-  top: 30px;
-  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  position: relative;
   transition: 0.3s;
 }
 

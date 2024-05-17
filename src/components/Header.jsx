@@ -5,7 +5,7 @@ import './navbar.css'
 export default function Header({ difBg, colorText, inputBg }) {
 
     return (
-        <nav className={`navbar navbar-expand-lg navbar-bg py-5 ${difBg}`}>
+        <nav className={`navbar navbar-expand-lg navbar-bg ${difBg}`}>
             <div className="container">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -84,9 +84,9 @@ export default function Header({ difBg, colorText, inputBg }) {
                     </ul>
                     <form className="d-flex">
                         <input className={`bg-input ${inputBg}`} type="search" placeholder="Search..." aria-label="Search" />
-                        <button className='btn-form btn btn-outline' type="submit">
+                        {/* <button className='btn-form btn btn-outline' type="submit">
                             <i className="bi bi-search "></i>
-                        </button>
+                        </button> */}
                     </form>
                 </div>
             </div>
